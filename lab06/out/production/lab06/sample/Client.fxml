@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="298.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ClientController">
+   <children>
+      <Label layoutX="27.0" layoutY="31.0" prefHeight="27.0" prefWidth="139.0" text="Zamów reklamę" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="advertTime" layoutX="22.0" layoutY="173.0" promptText="Czas reklamy" />
+      <Button fx:id="addAdvertButton" layoutX="22.0" layoutY="221.0" mnemonicParsing="false" onAction="#addAdvertButtonOnClick" prefHeight="35.0" prefWidth="149.0" text="Zatwierdź" />
+      <Label layoutX="242.0" layoutY="31.0" text="Twoje reklamy">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="deleteAdvertButton" layoutX="229.0" layoutY="221.0" mnemonicParsing="false" onAction="#deleteAdvertButtonOnClick" prefHeight="35.0" prefWidth="149.0" text="Wycofaj reklame" />
+      <TextField fx:id="advertText" layoutX="22.0" layoutY="66.0" prefHeight="93.0" prefWidth="149.0" promptText="Treść reklamy" />
+      <ListView fx:id="ordersList" layoutX="204.0" layoutY="67.0" prefHeight="132.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

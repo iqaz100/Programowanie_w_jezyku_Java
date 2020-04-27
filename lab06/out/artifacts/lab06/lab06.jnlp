@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="lab06.jnlp">
+  <information>
+    <title>lab06</title>
+    <vendor>Unknown</vendor>
+    <description>lab06</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lab06.jar" size="23659" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="D:\PWR\VI_SEMESTR\Java\Lab04\lab06\src\sample\Main.java"  name="lab06" />
+  <update check="background"/>
+</jnlp>

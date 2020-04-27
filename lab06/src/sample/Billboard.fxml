@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="115.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.BillboardController">
+   <children>
+      <Label fx:id="labelAdvertisement" layoutX="39.0" layoutY="23.0" prefHeight="60.0" prefWidth="443.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="startButton" layoutX="482.0" layoutY="23.0" mnemonicParsing="false" onAction="#startBillboardOnClick" prefHeight="32.0" prefWidth="103.0" text="Włącz" />
+      <Button fx:id="stopButton" layoutX="482.0" layoutY="62.0" mnemonicParsing="false" onAction="#stopBillboardOnClick" prefHeight="32.0" prefWidth="103.0" text="Wyłącz" />
+      <Label fx:id="labelTime" layoutX="25.0" layoutY="86.0" />
+   </children>
+</AnchorPane>

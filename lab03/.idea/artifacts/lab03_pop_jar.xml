@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="lab03_pop:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/lab03_pop_jar</output-path>
+    <root id="archive" name="lab03_pop.jar">
+      <element id="module-output" name="lab03_pop" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/jgoodies/jgoodies-forms/1.8.0/jgoodies-forms-1.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/jgoodies/jgoodies-common/1.8.0/jgoodies-common-1.8.0.jar" path-in-jar="/" />
+      <element id="library" level="project" name="com.jgoodies:jgoodies-forms:1.8.0" />
+    </root>
+  </artifact>
+</component>

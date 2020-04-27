@@ -1,0 +1,2 @@
+Dluzszy plik tekstowy zeby zobaczyc
+co tutaj sie dzieje w przypadku wiekszej ilosci slow niz 5

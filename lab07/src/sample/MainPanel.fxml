@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainPanelController">
+  <tabs>
+    <Tab text="Klienci">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tableViewClient" layoutX="21.0" layoutY="38.0" prefHeight="240.0" prefWidth="306.0">
+                    <columns>
+                      <TableColumn fx:id="tableColumnClientName" prefWidth="111.0" text="Imię" />
+                      <TableColumn fx:id="tableColumnClientSurname" prefWidth="102.0" text="Nazwisko" />
+                        <TableColumn fx:id="tableColumnClientID" prefWidth="91.0" text="Numer klienta" />
+                    </columns>
+                  </TableView>
+                  <Button layoutX="388.0" layoutY="296.0" mnemonicParsing="false" onAction="#addClientButtonOnClick" prefHeight="48.0" prefWidth="151.0" text="Dodaj klienta" />
+                  <Button fx:id="deleteButton" layoutX="191.0" layoutY="295.0" mnemonicParsing="false" onAction="#deleteButtonOnClick" prefHeight="48.0" prefWidth="136.0" text="Usuń" />
+                  <TextField fx:id="firstNameTextField" layoutX="389.0" layoutY="199.0" promptText="Imię klienta" />
+                  <TextField fx:id="secondNameTextField" layoutX="389.0" layoutY="245.0" promptText="Nazwisko klienta" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Instalacje">
+        <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                <children>
+                    <TableView fx:id="tableViewInstallation" layoutX="21.0" layoutY="38.0" prefHeight="240.0" prefWidth="306.0">
+                        <columns>
+                            <TableColumn fx:id="tableColumnInstallationAddress" prefWidth="132.0" text="Adres" />
+                            <TableColumn fx:id="tableColumnInstallationNumber" prefWidth="99.0" text="Numer Routera" />
+                            <TableColumn fx:id="tableColumnInstallationType" prefWidth="73.0" text="Typ usługi" />
+                        </columns>
+                    </TableView>
+                    <Button layoutX="388.0" layoutY="296.0" mnemonicParsing="false" onAction="#addInstallationButtonOnClick" prefHeight="48.0" prefWidth="151.0" text="Dodaj klienta" />
+                    <Button fx:id="deleteInstallationButton" layoutX="191.0" layoutY="295.0" mnemonicParsing="false" onAction="#deleteInstallationButtonOnClick" prefHeight="48.0" prefWidth="136.0" text="Usuń" />
+                    <TextField fx:id="addressInstallationTextField" layoutX="389.0" layoutY="111.0" promptText="Adres" />
+                    <TextField fx:id="routerNumberInstallationTextField" layoutX="389.0" layoutY="152.0" promptText="Numer routera" />
+                  <TextField fx:id="typeInstallationTextField" layoutX="389.0" layoutY="243.0" promptText="Typ usługi" />
+                  <ComboBox fx:id="clientComboBox" layoutX="389.0" layoutY="197.0" prefWidth="150.0" promptText="Klient" />
+                </children></AnchorPane>
+        </content>
+    </Tab>
+    <Tab text="Wpłaty i należności">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tableViewPayment" layoutX="23.0" layoutY="33.0" prefHeight="192.0" prefWidth="217.0">
+                    <columns>
+                      <TableColumn fx:id="termPaymentTableColumn" prefWidth="103.0" text="Termin wpłaty" />
+                      <TableColumn fx:id="prizePaymentTableColumn" prefWidth="83.0" text="Kwota wpłaty" />
+                        <TableColumn fx:id="idInstallPaymentTableColumn" prefWidth="33.0" text="ID" />
+                    </columns>
+                  </TableView>
+                  <TableView fx:id="tableViewCharge" layoutX="272.0" layoutY="29.0" prefHeight="197.0" prefWidth="297.0">
+                    <columns>
+                      <TableColumn fx:id="termChargeTableColumn" prefWidth="110.0" text="Termin płatności" />
+                      <TableColumn fx:id="prizeChargeTableColumn" prefWidth="113.0" text="Kwota do zapłaty" />
+                        <TableColumn fx:id="idInstallChargeTableColumn" prefWidth="75.0" text="ID Instalacji" />
+                    </columns>
+                  </TableView>
+                  <TextField fx:id="prizePaymentTextField" layoutX="23.0" layoutY="254.0" promptText="Kwota wpłaty" />
+                  <ComboBox fx:id="idInstallationComboBox" layoutX="23.0" layoutY="289.0" prefWidth="150.0" promptText="ID Instalacji" />
+                  <Button layoutX="23.0" layoutY="325.0" mnemonicParsing="false" onAction="#addPayment" prefHeight="25.0" prefWidth="150.0" text="Dodaj wpłate" />
+                  <Button layoutX="275.0" layoutY="325.0" mnemonicParsing="false" onAction="#addCharges" prefHeight="25.0" prefWidth="294.0" text="Nalicz należności za kolejny miesiąc" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
