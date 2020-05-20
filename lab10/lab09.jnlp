@@ -10,10 +10,12 @@
     </information>
     <resources>
         <j2se version="1.7+"         href="http://java.sun.com/products/autodl/j2se"/>
-        <jar href="helloWorldApp.jar"/>
+        <jar href="lab09.jar"/>
+<jar href="commons-codec-1.14.jar"/>
+<jar href="sMySecurityClass.jar"/>
     </resources>
     <application-desc
-         name="helloWorldApp"
-         main-class="com.company.Main">
+         name="lab09"
+         main-class="sample.MainUser">
      </application-desc>
 </jnlp>
