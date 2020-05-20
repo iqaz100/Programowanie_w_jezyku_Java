@@ -33,8 +33,8 @@
 -->
 
 <jnlp spec="1.0+" 
-        codebase="https://www.dropbox.com/s"
-        href="nzonf7d3na2a2u9/lab09.jnlp?dl=1">
+        codebase="https://github.com/iqaz100/Programowanie_w_jezyku_Java/raw/master/lab10"
+        href="lab09.jnlp">
     <information>
         <title>lab09</title>
         <vendor>Piotr Lasek</vendor>
@@ -43,7 +43,7 @@
         <!-- Application Resources -->
         <j2se version="1.7+"
               href="http://java.sun.com/products/autodl/j2se"/>
-        <jar href="lm7es84nvoqy0vu/helloWorldApp.jar?dl=1"/>
+        <jar href="helloWorldApp.jar"/>
 
     </resources>
     <application-desc
