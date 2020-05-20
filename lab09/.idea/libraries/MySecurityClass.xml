@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MySecurityClass">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MySecurityClass.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

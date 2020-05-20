@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="lab09.jnlp">
+  <information>
+    <title>lab092</title>
+    <vendor>Unknown</vendor>
+    <description>lab092</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="commons-codec-1.14.jar" size="347669" download="eager" />
+    <jar href="lab09.jar" size="11330" download="eager" />
+    <jar href="sMySecurityClass.jar" size="375030" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.MainUser"  name="lab092" />
+  <update check="background"/>
+</jnlp>

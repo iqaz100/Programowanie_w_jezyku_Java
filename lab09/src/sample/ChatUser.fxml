@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="311.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ChatUserController">
+   <children>
+      <TextField fx:id="messageTextField" layoutX="97.0" layoutY="41.0" prefHeight="25.0" prefWidth="158.0" promptText="Wiadomosc do wyslania" />
+      <Button layoutX="14.0" layoutY="86.0" mnemonicParsing="false" onAction="#sendMessageOnClick" prefHeight="25.0" prefWidth="346.0" text="Wyślij" />
+      <TextField fx:id="portTextField" layoutX="267.0" layoutY="41.0" prefHeight="25.0" prefWidth="93.0" promptText="Port odbiorcy" />
+      <TextArea fx:id="chatBox" layoutX="14.0" layoutY="124.0" prefHeight="171.0" prefWidth="222.0" />
+      <TextField fx:id="nicknameTextField" layoutX="14.0" layoutY="41.0" prefHeight="25.0" prefWidth="72.0" promptText="Imie" />
+      <Button layoutX="255.0" layoutY="124.0" mnemonicParsing="false" onAction="#selectKeyOnClick" prefHeight="48.0" prefWidth="105.0" text="Wybierz klucz" />
+      <Button layoutX="255.0" layoutY="186.0" mnemonicParsing="false" onAction="#decodeMsgOnClick" prefHeight="48.0" prefWidth="105.0" text="Dekoduj" />
+   </children>
+</AnchorPane>

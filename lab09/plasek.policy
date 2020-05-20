@@ -1,0 +1,16 @@
+/* AUTOMATICALLY GENERATED ON Wed Apr 22 03:11:22 CEST 2020*/
+/* DO NOT EDIT */
+
+keystore "file:/D:/PWR/VI_SEMESTR/Java/MySecurityClass/out/artifacts/MySecurityClass_jar/plasekkeys.jks","JKS", "SUN";
+
+keystorePasswordURL "file:/D:/PWR/VI_SEMESTR/Java/MySecurityClass/out/artifacts/MySecurityClass_jar/keystore.pass";
+
+grant signedBy "plasek",  codeBase "file:/D:/PWR/VI_SEMESTR/Java/lab09/sMySecurityClass.jar" {
+  permission java.security.AllPermission;
+  permission java.io.FilePermission "<<ALL FILES>>", "read, write, delete, execute";
+};
+
+grant codeBase "file:/D:/PWR/VI_SEMESTR/Java/lab09/-"{
+  permission java.security.AllPermission;
+  permission java.io.FilePermission "<<ALL FILES>>", "read, write, delete, execute";
+};
