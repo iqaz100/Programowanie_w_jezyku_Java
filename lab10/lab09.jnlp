@@ -8,15 +8,15 @@
         <vendor>Piotr Lasek</vendor>
 <offline-allowed/>
     </information>
+	<security>
+  		<all-permissions/>
+	</security>
     <resources>
         <j2se version="1.7+"         href="http://java.sun.com/products/autodl/j2se"/>
         <jar href="lab09.jar"/>
 <jar href="commons-codec-1.14.jar"/>
 <jar href="sMySecurityClass.jar"/>
     </resources>
-<security>
-  <all-permissions/>
-</security>
     <application-desc
          name="lab09"
          main-class="sample.MainUser">
