@@ -13,7 +13,7 @@
 	</security>
     <resources>
         <j2se version="1.7+"         href="http://java.sun.com/products/autodl/j2se"/>
-        <jar href="lab09.jar"/>
+        <jar href="slab09.jar"/>
 <jar href="commons-codec-1.14.jar"/>
 <jar href="sMySecurityClass.jar"/>
     </resources>
