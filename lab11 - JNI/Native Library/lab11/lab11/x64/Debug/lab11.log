@@ -1,0 +1,4 @@
+﻿  lab11.cpp
+c:\users\gtx\source\repos\lab11\lab11\lab11.cpp(52): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+c:\users\gtx\source\repos\lab11\lab11\lab11.cpp(60): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  lab11.vcxproj -> C:\Users\GTX\source\repos\lab11\x64\Debug\lab11.dll
